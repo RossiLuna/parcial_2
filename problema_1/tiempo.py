@@ -50,7 +50,8 @@ for i in range(len(contenido)):
             
 porc8 = cont8 * 100 / total
 arch2.write(f'{porc8:.2f} \n')
-print(f'Porcentaje de trabajadores que traban menos de 8 horas:{porc8:.2f}% \n')
+print(f'Porcentaje de trabajadores que trabajan menos de 8 horas:{porc8:.2f}% \n')
+
 if cont_f != 0:
     prom_f = acum_f / cont_f
     arch2.write(f'{prom_f:.2f}\n')
@@ -58,6 +59,7 @@ if cont_f != 0:
 else:
     arch2.write('0\n')
     print('Promedio de tiempo laborado por las trabajadoras: 0\n')
+    
 if band != 0:
     
     hora_durado = tiempo_min // 3600
@@ -68,5 +70,6 @@ if band != 0:
     arch2.write('%d,%d,%d' %(hora_durado,min_durado,seg_durado))
 else:
     arch2.write('0,0,0')
+    
 arch1.close()
 arch2.close()
