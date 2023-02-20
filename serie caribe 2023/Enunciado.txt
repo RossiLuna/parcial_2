@@ -1,0 +1,25 @@
+En esta edicion del clasico del caribe,el anotador oficial lleva el registro lleva regostro de todos los juegos del
+certamen en un archivo llamad o "serie2023.txt", que tiene la siguiente estructura:
+
+equipo1,equipo2,ca1,ca2,entradas,errores
+
+donde:
+
+equipo1:es el visitante(batea primero).
+equipo2:es el local.
+ca: carreras anotadas por equipo.
+entradas: innings jugados(cuando ambos equipos han completado sus respectivos turnos)
+errores 
+
+Desarrolle un programa que lea los datos del archivo "serie2023.txt", calcule e imprima en un archivo "resultados.txt" para
+cada equipo:
+
+equipo,carreras permitidad,total de entradas,errores.
+
+Las carreras permitidas son las carreras que le anotaron al equipo. El total de entradas es la suma del total de las entradas
+del juego, puede haber extraido o terminado el juego en 8.5 innings por ejemplo.
+Ademas determine e imprima por pantalla:
+
+1) Juegos ganados y perdidos por equipo
+2) porcentaje de victorias
+3) El equipo ganador, en caso de haber uno con el mismo numero de victorias seleccionar el de mayor carreras.

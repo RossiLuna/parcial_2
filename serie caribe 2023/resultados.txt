@@ -1,0 +1,6 @@
+venezuela,6,1,1 
+colombia,13,2,5 
+mexico,10,2,5 
+uruguay,5,1,1 
+cumana,3,1,1 
+honduras,8,1,1 
