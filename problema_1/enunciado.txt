@@ -1,0 +1,14 @@
+Una empresa de desarrollo de software registra en un archivo "asistencia.txt" la informacion correspondiente a la jornada
+laboral de sus empleados:
+
+cedula,sexo,hora de entrada,hora de salida
+
+donde la hora es registrada e horas, minutos y segundos (hh:mm:ss). El sexo es un caracter "F" o "M"
+
+desarrolle un program que lea el archivo "asistencia.txt" calcule e imprima en un archivo "resultados.txt" la siguiente 
+informacion:
+
+1) cedula y tiempo laborado en hh:mm:ss para cada empleado
+2) porcentaje de empleados que laboran menos de 8 horas.
+3) promedio de tiempo laborado que cumplieron los empleados del sexo femenino expresado en horas
+4) tiempo minimo de los empleados masculinos expresados en hh:mm:ss
